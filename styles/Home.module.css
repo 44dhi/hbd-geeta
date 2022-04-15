@@ -16,6 +16,36 @@
   height: 100%;
 }
 
+.textContainer{
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 30px;
+  background-color: #f7e4df;
+  border-radius: 32px;
+  border: solid 3px #3993DD;
+  text-align: center;
+}
+
+@media screen and (max-width:500px) {
+  .textContainer{
+    font-size: 17px;
+    line-height: 28px;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width:500px) {
+  .textContainer{
+    font-size: 20px;
+  }
+}
+
+.textContainer a{
+  color: #D64550;
+}
+
 .phone{
   position: relative;
   width: 100%;
